@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def introduce_view(request):
+def introduce(request):
     return render(request, 'introduce/hello.html')
