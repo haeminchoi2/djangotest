@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     
     # thirdparty app
     'introduce',
+    
+    # 220927 최해민 accesslog app add
+    'accesslog',
 ]
 
 MIDDLEWARE = [
